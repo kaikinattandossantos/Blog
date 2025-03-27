@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-images',
@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   templateUrl: './images.component.html',
   styleUrl: './images.component.css'
 })
-export class ImagesComponent {
+export class ImagesComponent implements OnInit {
+  ngOnInit(): void {
 
+  }
+
+  constructor() {
+
+  }
+
+  Subtitulo:string= "Texto padrão"
 }
